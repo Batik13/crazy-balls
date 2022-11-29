@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.app {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.3% 0.3vh;
+}
+
+.ball {
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
